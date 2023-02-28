@@ -1,0 +1,19 @@
+*{box-sizing: border-box;}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/Desert.webp);
+}
+
+img{
+    position: relative;
+    animation-name: zombie;
+    animation:zombie 7s infinite ;
+}
+
+@keyframes zombie{
+    0% {top: 0px;}
+    30% {top: 20px;}
+    62%, 75%{top:50px; left: 10px;}
+    100% {top: 50%; left: 50%;}  
+}
