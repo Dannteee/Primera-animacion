@@ -4,15 +4,3 @@ body{
     padding: 0;
     background-image: url(../images/Desert.webp);
 }
-
-img{
-    position: relative;
-    animation-name: zombie;
-    animation:zombie 10s infinite ;
-}
-
-@keyframes zombie{
-    0% {top: 0px;}
-    30% {top: 300px; left: 0px;}
-    62% {top:300px; left: 1500px;} 
-}
